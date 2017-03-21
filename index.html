@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>TODO</title>
+</head>
+<body>
+    <div class="todos-header">
+        <h1 class="todos-title">Todos</h1>
+    </div>
+    <div class="todos-add">
+            <button class="todo-add_select-all" aria-label="Отметить все как выполненные"></button> 
+            <input type="text" class="todo-add_input" aria-label="Поле добавления todo" placeholder="What needs to be done?">
+        <div class="todos-list">
+            <div class="todo-item __ready">
+                <input type="checkbox" checked="checked" class="todo-item_ready-mark" aria-label="Пометить как невыполненное">
+                <textarea class="todo-item_text">Something</textarea>
+                <button class="todo-item_remove" aria-label="Удалить todo"></button>
+            </div>
+        </div>
+        <div class="todos-actions-bar">
+            <div class="todos-action-bar_counter"></div>
+            <div class="todos-filters">
+                <button class="todos-filter" data-filter="all" aria-label="Фильтр: показать все">All</button>
+                <button class="todos_filter" data-filter="unready" aria-label="Фильтр: показать невыполненные">Active</button>
+                <button class="todos_filter __active" data-filter="ready" aria-label="Фильтр: показать выполненные" >Completed</button>
+            </div>
+            <button class="todos-action-bar_clear-completed">Clear completed</button>
+        </div>
+    </div>
+</body>
+</html>
