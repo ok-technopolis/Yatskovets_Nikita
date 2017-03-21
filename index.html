@@ -6,29 +6,27 @@
     <title>TODO</title>
 </head>
 <body>
-    <div class="todos_header">
-        <h1 class="todos_header_text">Todos</h1>
+    <div class="todos-header">
+        <h1 class="todos-title">Todos</h1>
     </div>
-    <div class="todos_main">
-        <div class="todo_add">
-            <button></button> 
-            <input type="text" class="todo_input" placeholder="What needs to be done?">
-        </div>
-        <div class="todos_list">
-            <div class="todo_item">
-                <input type="checkbox" class="todo_is_ready">
-                <textarea class="todo_text">Something</textarea>
-                <button class="todo_remove">X</button>
+    <div class="todos-add">
+            <button class="todo-add_select-all"></button> 
+            <input type="text" class="todo-add_input" placeholder="What needs to be done?">
+        <div class="todos-list">
+            <div class="todo-item __ready">
+                <input type="checkbox" class="todo-item_ready-mark">
+                <textarea class="todo-item_text">Something</textarea>
+                <button class="todo-item_remove">X</button>
             </div>
         </div>
-        <div class="todos_footer_actions">
-            <div class="todos_counter"></div>
-            <div class="todos_filters">
-                <button class="todos_all">All</button>
-                <button class="todos_active">Active</button>
-                <button class="todos_completed">Completed</button>
+        <div class="todos-actions-bar">
+            <div class="todos-action-bar_counter"></div>
+            <div class="todos-filters">
+                <button class="todos-filter __active">All</button>
+                <button class="todos_filter">Active</button>
+                <button class="todos_filter __active">Completed</button>
             </div>
-            <button class="todos_clear_completed">Clear completed</button>
+            <button class="todos-action-bar_clear-completed">Clear completed</button>
         </div>
     </div>
 </body>
