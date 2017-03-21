@@ -6,21 +6,29 @@
     <title>TODO</title>
 </head>
 <body>
-    <div class="header_text"></div>
-    <div class="full_form">
-        <div class="input_element">
-            <div class="icon"></div>
+    <div class="todos_header">
+        <h1 class="todos_header_text">Todos</h1>
+    </div>
+    <div class="todos_main">
+        <div class="todo_add">
+            <button></button> 
+            <input type="text" class="todo_input" placeholder="What needs to be done?">
         </div>
-        <div class="one_element">
-            <div class="check_box"></div>
-            <div class="text"></div>
-            <div class="delete"></div>
+        <div class="todos_list">
+            <div class="todo_item">
+                <input type="checkbox" class="todo_is_ready">
+                <textarea class="todo_text">Something</textarea>
+                <button class="todo_remove">X</button>
+            </div>
         </div>
-        <div class="form_footer">
-            <div class="all"></div>
-            <div class="active"></div>
-            <div class="completed"></div>
-            <div class="clear"></div>
+        <div class="todos_footer_actions">
+            <div class="todos_counter"></div>
+            <div class="todos_filters">
+                <button class="todos_all">All</button>
+                <button class="todos_active">Active</button>
+                <button class="todos_completed">Completed</button>
+            </div>
+            <button class="todos_clear_completed">Clear completed</button>
         </div>
     </div>
 </body>
