@@ -3,31 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style.css">
+	<link rel="stylesheet" href="fonts.css">
     <title>TODO</title>
 </head>
 <body>
     <div class="todos-header">
         <h1 class="todos-title">Todos</h1>
     </div>
+	<div class="todos-main">
     <div class="todos-add">
             <button class="todo-add_select-all" aria-label="Отметить все как выполненные"></button> 
             <input type="text" class="todo-add_input" aria-label="Поле добавления todo" placeholder="What needs to be done?">
+	</div>
         <div class="todos-list">
             <div class="todo-item __ready">
-                <input type="checkbox" checked="checked" class="todo-item_ready-mark" aria-label="Пометить как невыполненное">
-                <textarea class="todo-item_text">Something</textarea>
+                <input type="checkbox" id="todo-custom-checkbox" checked="checked" class="todo-item_ready-mark" aria-label="Пометить как невыполненное" hidden>
+				<label for="todo-custom-checkbox"></label>
+                <div contenteditable="true" class="todo-item_text">Something</div>
+                <button class="todo-item_remove" aria-label="Удалить todo"></button>
+            </div>
+			<div class="todo-item __ready">
+                <input type="checkbox" id="todo-custom-checkbox1" checked="checked" class="todo-item_ready-mark" aria-label="Пометить как невыполненное" hidden>
+				<label for="todo-custom-checkbox1"></label>
+                <div contenteditable="true" class="todo-item_text">Something</div>
+                <button class="todo-item_remove" aria-label="Удалить todo"></button>
+            </div>
+			<div class="todo-item">
+                <input type="checkbox" id="todo-custom-checkbox2" class="todo-item_ready-mark" aria-label="Пометить как невыполненное" hidden>
+				<label for="todo-custom-checkbox2"></label>
+                <div contenteditable="true" class="todo-item_text">Something</div>
                 <button class="todo-item_remove" aria-label="Удалить todo"></button>
             </div>
         </div>
         <div class="todos-actions-bar">
-            <div class="todos-action-bar_counter"></div>
+            <div class="todos-action-bar_counter">2 items left</div>
+			<button class="todos-action-bar_clear-completed">Clear completed</button>
             <div class="todos-filters">
-                <button class="todos-filter" data-filter="all" aria-label="Фильтр: показать все">All</button>
-                <button class="todos_filter" data-filter="unready" aria-label="Фильтр: показать невыполненные">Active</button>
-                <button class="todos_filter __active" data-filter="ready" aria-label="Фильтр: показать выполненные" >Completed</button>
+                <button class="todos-filter __active" data-filter="all" aria-label="Фильтр: показать все">All</button>
+                <button class="todos-filter" data-filter="unready" aria-label="Фильтр: показать невыполненные">Active</button>
+                <button class="todos-filter" data-filter="ready" aria-label="Фильтр: показать выполненные" >Completed</button>
             </div>
-            <button class="todos-action-bar_clear-completed">Clear completed</button>
         </div>
     </div>
+	<div class="todos-footer">
+	    <div class="todos-footer_first"></div>
+		<div class="todos-footer_second"></div>
+	</div>
 </body>
 </html>
