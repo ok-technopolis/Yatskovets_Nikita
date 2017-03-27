@@ -1,0 +1,21 @@
+.todos-list{
+	min-height:284px;
+}
+.todo-item{
+	font-family: Arial;
+	position:relative;
+	min-height:40px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.todo-item_text{
+    word-break: break-all;
+    outline: none;
+	padding: 21px 60px;
+}
+.__ready{
+	color:#ccc;
+	text-decoration:line-through;
+}
+.todo-item:hover{
+	background-color: rgb(250,250,250);
+}

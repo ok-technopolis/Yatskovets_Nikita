@@ -1,0 +1,16 @@
+.todos-add{
+	position:relative;
+	min-height:60px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.todo-add_input {
+  font-family: Arial;
+  font-size: 14pt;
+  position:absolute;
+  background-color: rgb(255, 255, 255);
+  width: 472px;
+  border-style:none;
+  left:60px;
+  top:21px;
+  outline:none;
+}

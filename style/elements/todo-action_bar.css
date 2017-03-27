@@ -1,0 +1,16 @@
+.todos-actions-bar{
+	font-family: Arial;
+    color: #888888;
+    font-size: 10pt;
+	position:relative;
+	width:540px;
+	bottom:0px;
+	padding:10px;
+	text-align:center;
+	border-top: 1px solid #e6e6e6;
+	
+}
+.todos-action-bar_counter{
+	position:absolute;
+	left:10px;
+}
