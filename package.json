@@ -9,10 +9,6 @@
     "watch": "gulp watch",
     "start": "gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ok-technopolis/preprocessor-stub.git"
-  },
   "author": "",
   "license": "MIT",
   "devDependencies": {

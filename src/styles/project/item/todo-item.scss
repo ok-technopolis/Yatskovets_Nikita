@@ -21,3 +21,7 @@
 .todo-item:hover{
 	background-color: rgb(250,250,250);
 }
+
+.todo-item:hover .todo-item_remove{
+	display:block;
+}
