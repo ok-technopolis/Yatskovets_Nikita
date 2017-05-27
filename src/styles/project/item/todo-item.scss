@@ -1,8 +1,10 @@
+@import "../../config/globals.scss";
+
 .todos-list{
 	min-height:284px;
 }
 .todo-item{
-	font-family: Arial;
+	font-family: $font-non-standart,$font-standart;
 	position:relative;
 	min-height:40px;
 	border-bottom: 1px solid #e6e6e6;

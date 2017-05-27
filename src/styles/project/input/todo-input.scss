@@ -1,11 +1,13 @@
+@import "../../config/globals.scss";
+
 .todos-add{
 	position:relative;
 	min-height:60px;
-	border-bottom: 1px solid #e6e6e6;
+	border-bottom: 1px solid $c-border;
 }
 .todo-add_input {
-  font-family: Arial;
-  font-size: 14pt;
+  font-family: $font-non-standart,$font-standart;
+  font-size: $fs-little;
   position:absolute;
   background-color: rgb(255, 255, 255);
   width: 472px;

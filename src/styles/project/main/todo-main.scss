@@ -1,12 +1,14 @@
+@import "../../config/globals.scss";
+
 body{
-	background-image: url(../../img/Layer.png);
+	background-image: url(../../../images/Layer.png);
 }
 .todos-header{
 	text-align:center;
 }
 .todos-title{
-	font-family: Arial;
-    font-size: 65pt;
+	font-family: $font-non-standart,$font-standart;
+    font-size: $fs-custom;
 	color: rgba(175, 47, 47, 0.149);
 	margin:0px;
 }

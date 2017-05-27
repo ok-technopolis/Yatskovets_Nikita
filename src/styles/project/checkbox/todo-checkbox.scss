@@ -1,3 +1,5 @@
+@import "../../config/globals.scss";
+
 input[type="checkbox"]{
     display:none;            
 }
@@ -24,7 +26,7 @@ input[type="checkbox"]{
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-image: url(../../img/completed.png)
+  background-image: url(../../../images/completed.png)
 
 }
 .todo-item_ready-mark:checked + label:after {

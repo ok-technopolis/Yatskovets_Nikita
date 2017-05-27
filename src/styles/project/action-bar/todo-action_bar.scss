@@ -1,0 +1,18 @@
+@import "../../config/globals.scss";
+
+.todos-actions-bar{
+	font-family: $font-non-standart,$font-standart;
+    color: $c-custom-gray;
+    font-size: $fs-xx-small;
+	position:relative;
+	width:540px;
+	bottom:0px;
+	padding:10px;
+	text-align:center;
+	border-top: 1px solid $c-border;
+	
+}
+.todos-action-bar_counter{
+	position:absolute;
+	left:10px;
+}
