@@ -4,7 +4,7 @@
 	min-height:284px;
 }
 .todo-item{
-	font-family: $font-non-standart,$font-standart;
+	font-family: $font-standart;
 	position:relative;
 	min-height:40px;
 	border-bottom: 1px solid #e6e6e6;
@@ -12,7 +12,7 @@
 .todo-item_text{
     word-break: break-all;
     outline: none;
-	padding: 21px 60px;
+	padding: 5.25*$offset $offset*15;
 }
 .__ready{
 	color:#ccc;

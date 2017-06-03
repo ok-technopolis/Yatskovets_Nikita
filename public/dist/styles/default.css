@@ -78,11 +78,10 @@ a {
 }
 
 .todos-actions-bar {
-  font-family: Helvetica, Arial;
+  font-family: Arial, Helvetica;
   color: #888888;
   font-size: 11px;
   position: relative;
-  width: 540px;
   bottom: 0px;
   padding: 10px;
   text-align: center;
@@ -90,12 +89,12 @@ a {
 }
 
 .todos-action-bar_counter {
-  position: absolute;
-  left: 10px;
+  position: relative;
+  float: left;
 }
 
 .todos-filter {
-  font-family: Helvetica, Arial;
+  font-family: Arial, Helvetica;
   color: #888888;
   font-size: 11px;
   position: relative;
@@ -106,7 +105,7 @@ a {
 }
 
 .todos-action-bar_clear-completed {
-  font-family: Helvetica, Arial;
+  font-family: Arial, Helvetica;
   color: #888888;
   font-size: 11px;
   background-color: #fff;
@@ -197,7 +196,7 @@ input[type="checkbox"] {
 }
 
 .todo-add_input {
-  font-family: Helvetica, Arial;
+  font-family: Arial, Helvetica;
   font-size: 14px;
   position: absolute;
   background-color: white;
@@ -213,7 +212,7 @@ input[type="checkbox"] {
 }
 
 .todo-item {
-  font-family: Helvetica, Arial;
+  font-family: Arial, Helvetica;
   position: relative;
   min-height: 40px;
   border-bottom: 1px solid #e6e6e6;
@@ -247,7 +246,7 @@ body {
 }
 
 .todos-title {
-  font-family: Helvetica, Arial;
+  font-family: Arial, Helvetica;
   font-size: 65px;
   color: rgba(175, 47, 47, 0.149);
   margin: 0px;

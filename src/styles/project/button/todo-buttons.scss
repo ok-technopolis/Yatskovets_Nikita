@@ -1,7 +1,7 @@
 @import "../../config/globals.scss";
 
 .todos-filter{
-	font-family: $font-non-standart,$font-standart;
+	font-family: $font-standart;
     color: $c-custom-gray;
     font-size: $fs-xx-small;
 	position:relative;
@@ -11,7 +11,7 @@
 	cursor:pointer;
 }
 .todos-action-bar_clear-completed{
-	font-family: $font-non-standart,$font-standart;
+	font-family: $font-standart;
     color: $c-custom-gray;
     font-size: $fs-xx-small;
 	background-color: #fff;
