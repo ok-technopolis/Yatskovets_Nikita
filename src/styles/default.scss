@@ -1,9 +1,19 @@
 @import "reset";
-@import "base/title/title";
 
-@import "project/action-bar/todo-action_bar";
-@import "project/button/todo-buttons";
-@import "project/checkbox/todo-checkbox";
-@import "project/input/todo-input";
-@import "project/item/todo-item";
-@import "project/main/todo-main";
+
+@import "layout";
+
+
+@import "base/action/action";
+@import "base/input-checkbox/input-checkbox";
+@import "base/filter/filter";
+
+
+@import "project/todos-title/todos-title";
+@import "project/todos-main/todos-main";
+@import "project/todos-add/todos-add";
+
+@import "project/todos-list/todos-list";
+@import "project/todos-list/todo-item";
+
+@import "project/todos-actions-bar/todos-actions-bar";
